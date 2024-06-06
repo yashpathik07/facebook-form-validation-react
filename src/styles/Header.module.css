@@ -1,0 +1,11 @@
+#header {
+    display: flex;
+    justify-content: center;
+    padding-block-start: 4rem;
+    padding-block-end: 2rem;
+    background-color: #f0f2f5;
+}
+
+#header img {
+    width: 200px;
+}

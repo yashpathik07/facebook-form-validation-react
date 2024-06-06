@@ -1,0 +1,92 @@
+#loginForm {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f2f5;
+    padding-block-end: 8rem;
+}
+
+#loginForm form {
+    max-width: 400px;
+    padding-inline: 1rem;
+    padding-block: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+#loginForm p {
+    margin-block-end: 1rem;
+    font-size: 1.2rem;
+}
+
+#loginForm input {
+    padding-inline: 16px;
+    padding-block: 14px;
+    border-radius: 6px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    outline: none;
+    width: 100%;
+    margin-block-start: 1rem;
+}
+
+#loginForm input::placeholder {
+    color: #929496;
+}
+
+#loginForm .error {
+    border-color: #fa6666;
+    background-color: #ffe2e2;
+}
+
+#loginForm form .passField {
+    position: relative;
+}
+
+#loginForm form .passField button {
+    width: 25px;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    border: none;
+    background: transparent;
+}
+
+#loginForm form #buttons .loginBtn button {
+    width: 100%;
+    margin-block: 1rem;
+    padding-block: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    transition: 0.2s ease;
+}
+
+#loginForm form #buttons .loginBtn button:hover {
+    background-color: #166ad8;
+}
+
+#loginForm form #buttons .otherBtn button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #1877f2;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-inline: 4px;
+}
+
+#loginForm form #buttons .otherBtn button:hover {
+    text-decoration: underline;
+}
+
+#loginForm form #buttons .otherBtn span {
+    color: #90949c;
+    position: relative;
+    bottom: 3px;
+}

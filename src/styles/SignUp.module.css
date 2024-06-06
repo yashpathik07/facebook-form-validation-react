@@ -1,0 +1,151 @@
+#signUpForm {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f2f5;
+    padding-block-end: 8rem;
+}
+
+#signUpForm form {
+    max-width: 500px;
+    background-color: white;
+    padding-inline: 1rem;
+    padding-block-start: 1rem;
+    padding-block-end: 2rem;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+#signUpForm .heading p {
+    color: #606770;
+}
+
+#signUpForm .heading hr {
+    border: none;
+    border-bottom: 1px solid #c8ced6;
+    margin-block: 1rem;
+}
+
+#signUpForm form input {
+    padding-inline: 16px;
+    padding-block: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px solid #dddfe2;
+    outline: none;
+    width: 100%;
+    margin-block-start: 10px;
+}
+
+#signUpForm form input::placeholder {
+    color: #929496;
+}
+
+#signUpForm .error {
+    border-color: #fa6666;
+    background-color: #ffe2e2;
+}
+
+#signUpForm form input[type='number']::-webkit-inner-spin-button,
+#signUpForm form input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+#signUpForm form .passField {
+    position: relative;
+}
+
+#signUpForm form .passField button {
+    width: 20px;
+    position: absolute;
+    top: 23px;
+    right: 15px;
+    border: none;
+    background: transparent;
+}
+
+#signUpForm form .dob {
+    margin-block-start: 12px;
+    text-align: left;
+}
+
+#signUpForm form .dob label {
+    color: #606770;
+    margin-inline-start: 6px;
+}
+
+#signUpForm form input[type='date'] {
+    color: #606770;
+    margin-block-start: 5px;
+    cursor: pointer;
+}
+
+#signUpForm form .gender {
+    margin-block-start: 12px;
+    text-align: left;
+}
+
+#signUpForm form .gender .genderLabel {
+    color: #606770;
+    margin-inline-start: 6px;
+    margin-block-end: 5px;
+}
+
+#signUpForm form .gender .radioBtn {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+#signUpForm form .gender .radioBtn div {
+    display: flex;
+    align-items: baseline;
+    flex: 1;
+    gap: 3rem;
+    padding-block-start: 2px;
+    padding-block-end: 5px;
+    padding-inline: 14px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+#signUpForm form .tnc {
+    font-size: 12px;
+    color: #606770;
+    margin-block: 2rem;
+}
+
+#signUpForm form .tnc a {
+    text-decoration: none;
+}
+
+#signUpForm form .tnc a:hover {
+    text-decoration: underline;
+}
+
+#signUpForm form #buttons .signUpBtn button {
+    width: 50%;
+    margin-block: 1rem;
+    padding-block: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    transition: 0.2s ease;
+}
+
+#signUpForm form #buttons .signUpBtn button:hover {
+    background-color: #008b00;
+}
+
+#signUpForm form #buttons .loginBtn button {
+    border: none;
+    background-color: transparent;
+    color: #1877f2;
+}
